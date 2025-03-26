@@ -1,10 +1,10 @@
-# Visão Geral: Tracker Flow integração e Processos
+# Visão Geral: Track Flow integração e Processos
 
-Bem-vindo á documentação oficial do Tracker Flow. Aqui você encontrará informações sobre como configurar e usar o Tracker Flow. Bem como conceitos chaves e termos que você precisa saber para começar a usar o Tracker Flow. Documentação técnica, exemplos de código e tutoriais estão disponíveis para ajudá-lo a começar a usar o Tracker Flow.
+Bem-vindo á documentação oficial do Track Flow. Aqui você encontrará informações sobre como configurar e usar o Track Flow. Bem como conceitos chaves e termos que você precisa saber para começar a usar o Track Flow. Documentação técnica, exemplos de código e tutoriais estão disponíveis para ajudá-lo a começar a usar o Track Flow.
 
-## O que é o Tracker Flow?
+## O que é o Track Flow?
 
-Este é um projeto desenvolvido pela Tehokas Soluções para oferecer um softare de gestão de projetos e processos altamente configurável e flexivel. A missão do Tracker Flow é trazer o processo real de gestão de projetos para o mundo digital e com isso possibilitar a gestão dos mesmos através de indicadores.
+Este é um projeto desenvolvido pela Tehokas Soluções para oferecer um softare de gestão de projetos e processos altamente configurável e flexivel. A missão do Track Flow é trazer o processo real de gestão de projetos para o mundo digital e com isso possibilitar a gestão dos mesmos através de indicadores.
 
 ## Principais Recursos
 
