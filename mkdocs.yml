@@ -1,0 +1,75 @@
+site_name: Tracker Flow
+site_description: Documentação oficial do Tracker Flow
+site_author: Eric Cangussu
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+  palette:
+    primary: indigo
+    accent: indigo
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
+
+nav:
+  - Home: index.md
+  - Primeiros Passos:
+    - inicio_rapido/index.md
+    - Instalação: inicio_rapido/instalacao.md
+    - Conceitos-Chave: inicio_rapido/conceitos_chaves.md
+  - Guias do Usuário:
+    - user-guides/index.md
+    - Definição de Processos:
+      - user-guides/process-definition/create-process.md
+      - user-guides/process-definition/configure-stages.md
+      - user-guides/process-definition/define-fields.md
+    - Execução de Processos:
+      - user-guides/process-execution/create-project.md
+      - user-guides/process-execution/track-progress.md
+      - user-guides/process-execution/complete-stages.md
+    - Tarefas Administrativas:
+      - user-guides/admin-tasks/user-management.md
+      - user-guides/admin-tasks/system-settings.md
+  - Guias Técnicos:
+    - technical-guides/index.md
+    - Arquitetura: technical-guides/architecture.md
+    - Modelo de Dados: technical-guides/data-model.md
+    - Modelos Dinâmicos: technical-guides/dynamic-models.md
+    - APIs: technical-guides/apis.md
+    - Extensibilidade: technical-guides/extending.md
+  - Desenvolvimento:
+    - development/index.md
+    - Ambiente Dev: development/setup-dev-environment.md
+    - Padrões de Código: development/coding-standards.md
+    - Testes: development/testing.md
+    - Contribuição: development/contributing.md
+  - Implantação:
+    - deployment/index.md
+    - Requisitos: deployment/requirements.md
+    - Banco de Dados: deployment/database-setup.md
+    - Produção: deployment/production-deployment.md
+    - Escalonamento: deployment/scaling.md
+  - Referência:
+    - Glossário: reference/glossary.md
+    - FAQ: reference/faq.md
+    - Solução de Problemas: reference/troubleshooting.md
+    - Notas de Versão: reference/release-notes.md
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
